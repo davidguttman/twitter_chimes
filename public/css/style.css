@@ -1,0 +1,32 @@
+html {
+  overflow: hidden;
+}
+body {
+  background-color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+#tweet_text {
+  color: #666;
+}
+
+.track {
+  font-weight: bold;
+}
+
+.track0 {
+  color: #f08;
+}
+
+.track1 {
+  color: #f00;
+}
+
+.track2 {
+  color: #ff0;
+}
+
+.track3 {
+  color: #08f;
+}

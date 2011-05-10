@@ -1,0 +1,30 @@
+<!-- /public/index.html -->
+
+<!doctype html> 
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+      TwitterChimes
+    </title>
+    <link rel="stylesheet" href="/css/reset.css" type="text/css" media="screen" title="reset" charset="utf-8">
+  </head>
+
+  <body>
+
+    <form method="get" accept-charset="utf-8">
+      <p><input type="text" id="track_words"/></p>
+      <p><input type="submit" id="track_button" value="Track!"></p>
+    </form>
+    
+    <div id="messages">
+      
+    </div>
+    <canvas id="drawspace"></canvas>
+    
+    <script src="/js/libs/jquery-1.5.2.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/libs/processing-1.1.0.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
